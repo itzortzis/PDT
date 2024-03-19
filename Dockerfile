@@ -22,4 +22,4 @@ ENV PYTHONUNBUFFERED=TRUE
 COPY / .
 
 # Specify command to start the container
-CMD ["python3", "main.py"]
+CMD ["python3", "rest_api.py"]
