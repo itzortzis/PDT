@@ -20,7 +20,10 @@ def test():
 #    return jsonify(data), 400
 
 if __name__ == '__main__':
+   # Production mode
    # from waitress import serve
    # serve(app, host="0.0.0.0", port=5000)
+   
+   # Debugging mode
    app.run(port=5000)
 
