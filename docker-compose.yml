@@ -1,0 +1,8 @@
+services:
+    photolab:
+        image: photolab_image
+        container_name: photolab_container
+        build:
+            context: .
+        ports:
+            - "5001:5000"
